@@ -25,3 +25,11 @@ sudo apt update && sudo apt install -y \
     libboost-system-dev libboost-thread-dev \
     libboost-chrono-dev libboost-dev \
     libasio-dev
+---
+
+## 🔧 compilar el proyecto
+git clone <repo-url> NotificationService
+cd NotificationService
+mkdir build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake --build . -- -j$(nproc)
