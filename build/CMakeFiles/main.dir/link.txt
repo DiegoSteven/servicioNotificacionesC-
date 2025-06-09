@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/database/Database.cpp.o CMakeFiles/main.dir/controller/NotificationRoutes.cpp.o -o main  /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0 -lpqxx -lpq /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0 
